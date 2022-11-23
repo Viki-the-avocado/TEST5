@@ -1,7 +1,7 @@
 const appName = 'Reflect';
 
 const String appbartitle = 'Reflect';
-const String andoidPackageName = 'com.cf.reflect';
+const String andoidPackageName = 'com.reflect';
 
 //change this url to set your URL in app
 const String webinitialUrl = 'https://reflect.cf';
