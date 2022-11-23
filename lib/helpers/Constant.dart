@@ -1,14 +1,14 @@
-const appName = 'Prime Web';
+const appName = 'Reflect';
 
-const String appbartitle = 'Prime Web';
-const String andoidPackageName = 'com.wrteam.prime_web';
+const String appbartitle = 'Reflect';
+const String andoidPackageName = 'com.cf.reflect';
 
 //change this url to set your URL in app
-const String webinitialUrl = 'https://wrteam.in/';
-const String firstTabUrl = 'https://www.google.com';
+const String webinitialUrl = 'https://reflect.cf';
+const String firstTabUrl = 'https://reflect.cf';
 
 //keep local content of pages of setting screen
-const String aboutPageURL = 'https://wrteam.in/about-us/';
+const String aboutPageURL = '';
 const String privacyPageURL = '';
 const String termsPageURL = '';
 
@@ -23,15 +23,15 @@ const String shareAndroidAppMessge =
     'Download $appName App from this link : http://play.google.com/store/apps/details?id=$androidAppId';
 
 //To turn on/off ads
-const bool showInterstitialAds = true;
-const bool showBannerAds = true;
-const bool showOpenAds = true;
+const bool showInterstitialAds = false;
+const bool showBannerAds = false;
+const bool showOpenAds = false;
 
 //To turn on/off display of bottom navigation bar
 const bool showBottomNavigationBar = false;
 
 //To show/remove splash screen
-const bool showSplashScreen = true;
+const bool showSplashScreen = false;
 
 //To remove/display header/footer of website
 const bool hideHeader = false;
