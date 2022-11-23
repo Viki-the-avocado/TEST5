@@ -1,5 +1,3 @@
-#import <MobileProvision/MobileProvision.h>
-
 platform :ios, '14.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
@@ -44,5 +42,3 @@ post_install do |installer|
 	end
   end
 end
-
-pod 'MobileProvision'
