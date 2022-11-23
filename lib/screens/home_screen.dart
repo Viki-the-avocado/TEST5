@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           parent: navigationContainerAnimationController,
                           curve: Curves.easeInOut)),
                   
-                  )))),
+                  ),
     );
   }
 
