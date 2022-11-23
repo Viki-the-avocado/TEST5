@@ -1,4 +1,4 @@
-const appName = 'Reflect';
+const String appName = 'Reflect';
 
 const String appbartitle = 'Reflect';
 const String andoidPackageName = 'com.reflect';
