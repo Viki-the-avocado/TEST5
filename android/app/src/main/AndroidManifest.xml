@@ -51,7 +51,7 @@
       <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
        <!-- end remove permissions from  list if not using in your website -->
    <application
-        android:label="PrimeWeb"
+        android:label="Reflect"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher_squircle"
         android:usesCleartextTraffic="true"
