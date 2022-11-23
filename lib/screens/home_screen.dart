@@ -75,20 +75,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                       .animate(CurvedAnimation(
                           parent: navigationContainerAnimationController,
                           curve: Curves.easeInOut)),
-                  child: Container(
-                    padding: EdgeInsets.all(10),
-                    child: FloatingActionButton(
-                      child: Lottie.asset(
-                        Theme.of(context).colorScheme.settingsIcon,
-                        height: 30,
-                        repeat: true,
-                      ),
-                      onPressed: () {
-                        // setState(() {
-                        navigatorKey.currentState!.pushNamed('settings');
-                        // });
-                      },
-                    ),
+                  
                   )))),
     );
   }
