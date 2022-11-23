@@ -74,9 +74,8 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           begin: Offset.zero, end: const Offset(0.0, 1.0))
                       .animate(CurvedAnimation(
                           parent: navigationContainerAnimationController,
-                          curve: Curves.easeInOut)),
-                  
-                  ),
+                          curve: Curves.easeInOut))
+              ))),
     );
   }
 
